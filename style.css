@@ -13,7 +13,7 @@
 }
 
 .cont {
-    height: 100vh; /* Increased height for scrolling */
+    height: 100vh;
    
     position: relative;
     display: flex;
@@ -31,16 +31,16 @@
 }
 
 .background {
-    transform: translateZ(-2px) scale(3); /* Background moves slowest */
+    transform: translateZ(-2px) scale(3); 
     /* width: 100%; */
-    z-index: -1; /* Ensure background is behind */
+    z-index: -1;
 }
 
 .foreground {
     top: 30%;
-    transform: translateZ(-1px) scale(1.75); /* Foreground moves faster */
+    transform: translateZ(-1px) scale(1.75);
     /* width: 100%; */
-    z-index: -1; /* Ensure foreground is in front of background */
+    z-index: -1;
 }
 
 h1{
